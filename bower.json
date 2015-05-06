@@ -1,0 +1,16 @@
+{
+  "name": "ffs2015",
+  "version": "0.0.0",
+  "homepage": "https://github.com/productiveedge/ffs2015",
+  "authors": [
+    "Steve Morgan <smorgan@productiveedge.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

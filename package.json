@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "ffs2015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/productiveedge/ffs2015.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/productiveedge/ffs2015/issues"
+  },
+  "homepage": "https://github.com/productiveedge/ffs2015",
+  "dependencies": {
+    "boom": "^2.7.1",
+    "catbox-redis": "^1.0.4",
+    "convict": "^0.7.0",
+    "hapi": "^8.4.0",
+    "when": "^3.7.3"
+  }
+}
