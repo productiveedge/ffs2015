@@ -1,15 +1,17 @@
 <html>
   <head>
   	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js">
-    </script>
+
+    <script src="./vendor/angular/angular.min.js"></script>
+    <script src="./vendor/angular-ui-router/release/angular-ui-router.js"></script>
+
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="vendor/semantic-ui/dist/semantic.css">
     <link rel="stylesheet" type="text/css" href="vendor/semantic-ui/dist/components/reset.min.css">
+
     <title>Project Codename [FED]</title>
   </head>
-  <body ng-app>
+  <body ng-app="po.talent">
 
     <!-- Header bar starts -->
     <div class="ui menu inverted">
@@ -24,6 +26,12 @@
       </div>
     </div>
     <!-- End of header bar -->
+
+
+    <script src="js/app.js"></script>
+
+    <script src="components/header/header.js"></script>
+    <script src="components/header/header-controller.js"></script>
 
   </body>
 </html>
