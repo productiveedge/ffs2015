@@ -1,29 +1,30 @@
 'use strict';
-/*
-API Routes:
---
- */
 
 var routes = [
+    {
+        method: 'GET',
+        path: '/api/users',
+        handler: require("./handler/user/user-browse.js")
+    },
+    {
+        method : 'POST',
+        path: '/api/user',
+        handler : require('./handler/user/user-add.js')
+    },
     {
         method : 'GET',
         path : '/',
         handler : {
-            file : "./.build/index.html"
+            file : "./client/index.html"
         }
     },{
         method : 'GET',
         path : '/{param*}',
         handler : {
             directory: {
-                path: './.build/'
+                path: './client/'
             }
         }
-    },
-    {
-        method : "GET",
-        path : '/user',
-        handler : require("./handler/user/user-register.js")
     }
 ];
 

@@ -15,4 +15,5 @@ var userSchema = new Schema({
         index : true
     }
 });
+
 mongoose.model("user", userSchema);

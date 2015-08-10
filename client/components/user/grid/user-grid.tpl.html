@@ -1,0 +1,10 @@
+<div>
+
+    <form name="newUser" ng-submit="UserGrid.addUser(userAddData)">
+        <input type="text" placeholder="name" data-ng-model="userAddData.name" name="user.name" />
+        <input type="submit" />
+    </form>
+
+    <div user-card="user" data-ng-repeat="user in UserGrid.userCollection"></div>
+
+</div>

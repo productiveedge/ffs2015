@@ -57,15 +57,8 @@ function onComposed(err){
     if(err){
         logger.error("onComposed", err, {});
     }
-
-    hoek.assert(!err, "Failure loading plugins: " + (err && err.message));
-
     server.start(function () {
 
-        /*setInterval(function(){
-         console.log(util.inspect(process.memoryUsage()));
-         },2000);
-*/
         console.log("Server running at:", server.info.uri);
     });
 }

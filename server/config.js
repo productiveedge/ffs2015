@@ -3,7 +3,7 @@ var convict = require("convict");
 var config = convict({
     port : {
         description : "Port for the ffs",
-        default : 8080,
+        default : 8081,
         env : "PO_TALENT_PORT"
     },
     redisUrl: {
